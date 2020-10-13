@@ -1,3 +1,11 @@
+#import all classes
+import practice9_7
+#import classes
+from practice9_7 import User
+# import system models
+from collections import OrderedDict
+
+
 class Dog():
     def __init__(self,name,age):
         self.name=name
@@ -102,3 +110,13 @@ class newElectricCar(Car):
 new_tesla=newElectricCar('tesla','Model s',2016)
 new_tesla.battery.describe_battery()
 new_tesla.battery.get_range()
+
+# use system function
+favorite_languages=OrderedDict()
+favorite_languages['jen']='python'
+favorite_languages['sarah']='c'
+favorite_languages['edward']='ruby'
+favorite_languages['phil']='python'
+for name,language in favorite_languages.items():
+    print(name.title()+"'s favorite language is "+language.title())
+
