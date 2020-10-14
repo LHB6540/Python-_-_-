@@ -1,0 +1,3 @@
+In Python you can learn list
+In Python you can learn tuple
+In Python you can learn class
