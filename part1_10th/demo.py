@@ -31,3 +31,7 @@ with open('programming1.txt','a') as file_object:
     file_object.write("Me，too")
 with open('programming1.txt') as file_object:
     print(file_object.read())
+
+
+
+
